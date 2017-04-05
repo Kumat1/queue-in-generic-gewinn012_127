@@ -14,14 +14,13 @@ public class Queue
         que.Print();
         que.Enqueue(8);
         que.Print();
+        que.Dequeue();
+        que.Print();
         que.Enqueue(9);
         que.Print();
+        que.Dequeue();
+        que.Print();
         que.Enqueue(10);
-        que.Print();
-
-        que.Dequeue();
-        que.Print();
-        que.Dequeue();
         que.Print();
         que.Dequeue();
         que.Print();
@@ -45,7 +44,7 @@ public class Queue
         }
     }
 
-    public int Dequeue() //untuk menghapus,
+    public int Dequeue()
     {
         if(akhir != mulai)
         {
@@ -83,4 +82,5 @@ public class Queue
 
         System.out.println(tanda);
     }
+
 }
