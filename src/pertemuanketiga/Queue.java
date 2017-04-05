@@ -1,4 +1,4 @@
-package tugas;
+package pertemuanketiga;
 
 public class Queue
 {
@@ -8,7 +8,7 @@ public class Queue
 
     public static void main(String[] args)
     {
-        pertemuanketiga.Queue que = new pertemuanketiga.Queue();
+        Queue que = new Queue();
 
         que.Enqueue(7);
         que.Print();
