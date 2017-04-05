@@ -45,7 +45,7 @@ public class Queue
         }
     }
 
-    public int Dequeue()
+    public int Dequeue() //untuk menghapus,
     {
         if(akhir != mulai)
         {
